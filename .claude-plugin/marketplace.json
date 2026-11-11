@@ -1,0 +1,40 @@
+{
+  "name": "taxstreem-claude-skills",
+  "owner": {
+    "name": "TaxStreem Engineering"
+  },
+  "metadata": {
+    "description": "Production-grade Claude Skills for engineering, QA, product and leadership teams.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "engineering-skills",
+      "description": "Code review, QA, audits, debugging, documentation and hands-on engineering skills.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ai-code-reviewer",
+        "./skills/staff-engineer-production-review",
+        "./skills/senior-qa-engineer",
+        "./skills/audit-and-remediate",
+        "./skills/senior-aiml-engineering-assistant",
+        "./skills/application-log-reader",
+        "./skills/code-commenter"
+      ]
+    },
+    {
+      "name": "product-leadership-skills",
+      "description": "CTO reporting, fintech Linear tickets, design systems, brainstorming and research-first writing.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/cto-digital-assistant",
+        "./skills/fintech-product-manager-developer-ticket-creator",
+        "./skills/design-system-architect",
+        "./skills/brainstorming-colleague",
+        "./skills/content-research-writer"
+      ]
+    }
+  ]
+}
