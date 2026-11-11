@@ -1,7 +1,7 @@
 {
-  "name": "taxstreem-claude-skills",
+  "name": "claude-skills",
   "owner": {
-    "name": "TaxStreem Engineering"
+    "name": "Sam Ayo"
   },
   "metadata": {
     "description": "Production-grade Claude Skills for engineering, QA, product and leadership teams.",
